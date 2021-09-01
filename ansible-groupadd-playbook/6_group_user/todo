@@ -1,0 +1,14 @@
+devops2 
+
+username
+group
+public key parametre olarak alip
+ansible yml i bitbucket dan cekecek
+job calisinca 3 parametresinde useri tum makinalarda olusacak
+build dedigimizde job u calistiracak
+
+bunu devops user 
+
+ansible galaxy
+loop ve with_items kullanilsin
+

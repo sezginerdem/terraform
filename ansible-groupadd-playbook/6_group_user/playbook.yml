@@ -1,0 +1,53 @@
+- name: Create Group, User and Deploy the Authorized_key Key
+  hosts: all
+  become: true
+  
+  vars:
+    group_name:
+    - name: testgroup1
+    - name: testgroup2
+    - name: testgroup3
+    - name: testgroup4
+    - name: testgroup5
+    - name: testgroup6
+
+  vars_files:
+    - ./vars/users_vars.yml
+    - ./vars/remove_user.yml
+      
+  tasks:
+
+# Creating groups
+  - name: Create Groups
+    group:
+      name: "{{ item.name }}"
+    with_items: "{{ group_name }}"
+
+# Create users and add to group 
+  - name: Add Users
+    user:
+      name: "{{ item.name }}"
+      group: "{{ item.group }}"
+      state: present
+    with_items: 
+      - "{{ users }}"
+
+
+# Set authorize key from file
+  - name: Set authorize keys taken from file
+    authorized_key:
+      user: "{{ item.name }}"
+      state: present
+      key: "{{ lookup('file', './vars/public_keys/{{ item.name }}.pub') }}"
+    with_items: 
+      - "{{ users }}"
+
+# Removing user
+  - name: Remove Users
+    user:
+      name: "{{ item.name }}"
+      state: absent
+      remove: yes 
+      force: yes
+    with_items:
+      - "{{ remove_user }}"

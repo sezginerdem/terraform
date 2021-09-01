@@ -1,0 +1,14 @@
+# To add user write down username and group below
+add_user:
+  - name: testuser1
+    group: testgroup1
+  - name: testuser2
+    group: testgroup2
+  - name: testuser3
+    group: testgroup3
+  - name: testuser4
+    group: testgroup4
+  - name: testuser5
+    group: testgroup5
+  - name: testuser6
+    group: testgroup6
