@@ -1,8 +1,0 @@
-# To remove user write down username
-remove_user:
-  - name: testuser1
-  - name: testuser2
-  - name: testuser3
-  - name: testuser4
-  - name: testuser5
-  - name: testuser6
