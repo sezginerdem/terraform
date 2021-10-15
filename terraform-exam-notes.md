@@ -1,0 +1,72 @@
+    $ terraform init
+    $ terraform apply
+    $ terraform plan
+    $ terraform -target aws_instance.myec2 destroy
+    $ terraform refresh
+    - State file
+    - Desired state
+    - Current state
+    - Provider versioning
+    - Lock file
+    - Attributes
+    - Outputs
+    - Variables
+        - Environment variables
+        - Command line flgas
+        - From a file
+        - Variable Defaults
+    - Data types of variables
+        - string-number-list-map
+    - Count parameter
+        - count.index
+    - Condition expression
+        - condition ? true_val : false_val
+    - Local values
+    - Functions
+        - numeric
+        - string
+        - collection
+        - encoding
+        - filesystem
+        - date and time
+        - hash and crypto
+        - IP network
+        - type conversion
+    - Data sources
+    - Debugging Terraform
+        - TRACE
+        - TF_LOG_PATH
+    - Terraform fmt
+    - Terraform validate
+    - Load order and Semantics
+    - Dynamic blocks
+    - Terrafor taint
+    - Spalat expression
+    - Terraform graph
+    - Saving terrafrom plan file
+    - Terraform output
+    - Terraform settings
+    - Dealing with larger infrastructure
+    - Zipmap
+- Provisioners
+    - Types of provisioners
+        - Local exec provisioners
+        - Remote exec provisioners
+        - Creation time provisioner
+        - Destroy time provisioner
+        - Provisioner continue-failure behaviour
+- Modules and Workspaces
+    - DRY (don't repeat yourself) principle
+    - Terraform registry
+    - Terraform workspace
+- Remote State Management
+    - State lock
+- Terraform state commands
+    - list
+    - mv
+    - pull
+    - push
+    - remove
+    - show
+- Terraform import
+   
