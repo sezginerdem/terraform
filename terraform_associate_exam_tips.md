@@ -17,7 +17,7 @@
 - Gecme notu 70.
 
 # Soru tipi
-- Sorularin tamamina yakini coktan secmeli.
+- Sorularin tamamina yakini coktan secmeli ve yes/no sorularindan olusuyor.
 - Dogru yanlisi goturmuyor
 - 5 sik veriyor 3 dogruyu(yanlisi) sec olabiliyor.
 - Farkli olarak 2-3 soru bosluk doldurma olabiliyor. Benim sinavda 2 soru bosluk doldurma vardi. Ornek olarak bir code parcasi veriyor ve buraya ne yazilmalidir diyor. Bana cikan bir ornekde terraform state file in yazimi nasildir seklinde idi: `terraform.tfstate`
