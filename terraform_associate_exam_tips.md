@@ -42,6 +42,7 @@
 - https://www.udemy.com/course/terraform-beginner-to-advanced/
 - https://www.freecram.com/exam/TA-002-P-hashicorp-certified-terraform-associate-e11859.html
 - https://cuongquach.com/cai-dat-terraform-tren-linux.html
+- https://www.dumpsbase.com/freedumps/hashicorp/terraform-associate
 - https://quizlet.com/632698475/test?answerTermSides=4&promptTermSides=6&questionCount=20&questionTypes=4&showImages=true
 - https://www.certification-questions.com/hashicorp-dumps/terraform-associate.html
 - https://medium.com/bb-tutorials-and-thoughts/250-practice-questions-for-terraform-associate-certification-7a3ccebe6a1a
