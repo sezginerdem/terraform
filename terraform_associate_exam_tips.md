@@ -1,5 +1,6 @@
 # ***Terraform Associate Certification Exam Tips***
 
+
 # Sinav Ucreti
 - $70.50 USD (Diger sertifika sinavlarina kiyasla ucret cok uygun)
 - Eger sirketiniz Hashicorp partneri ise voucher alabiliyorsunuz hatta free dahi olabilecegini okudum ancak benim oyle bir durumum olmadigi icin detayini arastirma geregi duymadim
