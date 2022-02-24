@@ -1,6 +1,5 @@
 # ***Terraform Associate Certification Exam Tips***
 
-
 # Sinav Ucreti
 - $70.50 USD (Diger sertifika sinavlarina kiyasla ucret cok uygun)
 - Eger sirketiniz Hashicorp partneri ise voucher alabiliyorsunuz hatta free dahi olabilecegini okudum ancak benim oyle bir durumum olmadigi icin detayini arastirma geregi duymadim
@@ -19,12 +18,12 @@
 
 # Soru tipi
 - Sorularin tamamina yakini coktan secmeli ve yes/no sorularindan olusuyor.
-- Dogru yanlisi goturmuyor
+- Yanlis dogruyu goturmuyor.
 - 5 sik veriyor 3 dogruyu(yanlisi) sec olabiliyor.
 - Farkli olarak 2-3 soru bosluk doldurma olabiliyor. Benim sinavda 2 soru bosluk doldurma vardi. Ornek olarak bir code parcasi veriyor ve buraya ne yazilmalidir diyor. Bana cikan bir ornekde terraform state file in yazimi nasildir seklinde idi: `terraform.tfstate`
 
 # Sinavda lab sorusu var mi
-- Lab sorusu yok
+- Hands-on sorusu yok
 
 # Sinav hazirligi icin yaklasik ne kadarlik bir on calisma gerekir
 - Kisiden kisiye gore degisir tabii. Ancak aldigimiz egitimden hala az da olsa birseyler hatirliyorsak. Ingilizce ile de pek sorununuz yoksa en fazla 2 hafta calisma ile sertifika alinabilir.
